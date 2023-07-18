@@ -35,6 +35,9 @@ body {
 /* .navbar.navbar-expand:hover {
     color: red;
 } */
+/* .navbar.navbar-expand .container {
+    position: sticky;
+} */
 .navbar .container .d-flex {
     width: 25%;
     /* justify-content: space-between; */
@@ -129,4 +132,47 @@ swiper-slide {
     background-image: url(images/banner1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+.table.dropdown-menu {
+    width: 25em;
+}
+ .table .dropdown-item {
+    padding: 0;
+}
+.arrivals a {
+    padding: 2em;
+}
+.arrivals .splide .splide__track img {
+    height: 200px;
+}
+.arrivals a {
+    padding: 0;
+}
+/* .ad article {
+     width: 560px;
+    margin-right: 0; 
+     display: inline-block; 
+     columns: 2; 
+}
+.ad article img {
+    margin-right: 0;
+} */
+.promotion .text {
+    position: absolute;
+    margin-top: 2em;
+}
+.promotion .ms-4 .text{
+    left: 20vh;
+}
+.promotion .me-4 .text{
+    left: 110vh;
+}
+.trending .splide .splide__track img {
+    height: 200px;
+}
+.splide {
+    visibility: visible;
+}
+.splide__slide {
+     backface-visibility: visible;
 }
